@@ -55,3 +55,24 @@
     text-align: left;
     line-height: 2;
 }
+.float-container {
+    border: 75px solid #fff;
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+    
+}
+
+.float-child-1 {
+    
+    width: 75%;
+    float: left;
+    padding: 20px;
+    border: 2px solid white;
+}
+.float-child-2 {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid white;
+}
