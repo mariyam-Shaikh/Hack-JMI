@@ -1,0 +1,48 @@
+.amb{
+    float: left;
+    padding: 10px;
+}
+.profile{
+    width: 75%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+h1{
+    margin-top: 30px ;
+    font-size: 80px;
+}
+.navbar{
+    background-color: black;
+    margin:-10px -10px -15px 10px;
+    padding:19px 0px 0px 0px;
+    height:100px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    color:rgb(255, 255, 255);
+    float:left;
+    margin:10px 10px;
+    padding:10px 10px;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color:white;
+}
+.navbar li a:hover{
+    color:greenyellow;
+}
+.bottom-container{
+    background-color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+.top-container{
+    background-color: #eaf6f6;    
+    position: relative;
+    padding-top: 100px;
+}
