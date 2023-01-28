@@ -1,20 +1,25 @@
 .amb{
     float: left;
     padding: 10px;
+    width: 200px;
+    height:200px;
+    object-fit: cover;
 }
 .profile{
     width: 75%;
-    margin: 100px auto 100px auto;
+    margin: 50px auto 100px auto;
     text-align: left;
     line-height: 2;
+    padding-bottom: 20px;
 }
-h1{
-    margin-top: 30px ;
+.heading{
+    padding-top: 80px  ;
     font-size: 80px;
+    text-align: center;
 }
 .navbar{
     background-color: black;
-    margin:-10px -10px -15px 10px;
+    margin:-10px -10px -15px -2px;
     padding:19px 0px 0px 0px;
     height:100px;
 }
@@ -39,10 +44,14 @@ h1{
     background-color: green;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 0px auto 0px auto;
 }
 .top-container{
-    background-color: #eaf6f6;    
+    background-color: #eaf6f6;
     position: relative;
-    padding-top: 100px;
+    width: 75%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
