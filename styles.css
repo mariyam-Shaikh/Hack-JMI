@@ -19,10 +19,12 @@
 }
 .navbar{
     background-color: black;
-    margin:-10px -10px -15px -2px;
+    margin:auto;
     padding:19px 0px 0px 0px;
     height:100px;
 }
+.navbar-brand{
+    padding-left: 20px;
 .navbar ul{
     overflow: auto;
 }
