@@ -18,10 +18,10 @@
     text-align: center;
 }
 .navbar{
-    background-color: black;
+     background-color: black;
     margin:auto;
-    padding:19px 0px 0px 0px;
-    height:100px;
+    padding:19px 0px 19px 0px;
+    height:auto;
 }
 .navbar-brand{
     padding-left: 20px;
