@@ -1,0 +1,103 @@
+.amb{
+    float: left;
+    padding: 10px;
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+}
+.profile{
+    width: 75%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+.navbar{
+     background-color: black;
+    margin:auto;
+    padding:19px 0px 19px 0px;
+    height:auto;
+}
+.navbar-brand{
+    padding-left: 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    color:rgb(255, 255, 255);
+    float:left;
+    margin:10px 10px;
+    padding:10px 10px;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color:white;
+}
+.navbar li a:hover{
+    color:greenyellow;
+}
+.bottom-container{
+    color:white;
+    background-color: #212529;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 0px auto 0px auto;
+}
+.footer-link{
+    padding:4px 8px;
+}
+.bg_REMS_HOME{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+   
+}
+.top-container{
+    background-color: #f1f4f4;
+    position: relative;
+    width: 100%;
+    margin: 1px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.float-container {
+    border: 75px solid #fff;
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+    
+}
+
+.float-child-1 {
+    
+    width: 75%;
+    float: left;
+    padding: 20px;
+    border: 2px solid white;
+}
+.float-child-2 {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid white;
+}
+.con-btn{
+    margin-top: 10px;
+}
+.emergency{
+    position: absolute;
+    left: 1080px;
+    top: 813px;
+    padding:7px 25px 7px 27px;
+    z-index: 1;
+    letter-spacing: .2rem;
+}
+.chotu{
+    padding:10px;
+}
