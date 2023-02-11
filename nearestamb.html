@@ -67,9 +67,24 @@
 
 <!--js for map api (tomtom)-->
   <script>
+    const x = document.getElementById("demo");
+
+function getLocation() {
+  try {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } catch {
+    x.innerHTML = err;
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "" + position.coords.longitude+
+  "," + position.coords.latitude ;
+  
+}
     const apiKey = 'kOCePmeb03Zlhwq2geuS4oRHVPeXA2rc';
 
-    const passengerInitCoordinates = [77.280791,28.559039];
+    const passengerInitCoordinates = [showPosition(position)];
     let passengerMarker;
 
     let taxiPassengerBatchCoordinates = [];
