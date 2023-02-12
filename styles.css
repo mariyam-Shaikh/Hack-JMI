@@ -1,0 +1,234 @@
+.amb {
+    float: left;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile {
+    width: 75%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    background-color: black;
+    margin: auto;
+    padding: 19px 0px 19px 0px;
+    height: auto;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: greenyellow;
+}
+
+.bottom-container {
+    color: white;
+    background-color: #212529;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 0px auto 0px auto;
+}
+
+.footer-link {
+    padding: 4px 8px;
+}
+
+.bg_REMS_HOME {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.top-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.float-container {
+    border: 75px solid #fff;
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+
+}
+
+.float-child-1 {
+
+    width: 75%;
+    float: left;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.float-child-2 {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.con-btn {
+    margin-top: 10px;
+}
+
+.emergency {
+    position: absolute;
+    left: 1080px;
+    top: 813px;
+    padding: 7px 25px 7px 27px;
+    z-index: 1;
+    letter-spacing: .2rem;
+}
+.emergency a{
+    color:white;
+    text-decoration: none;
+}
+.chotu {
+    padding: 10px;
+}
+
+.map-container {
+    height: 50%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#submit-button {
+    background: #df1b12;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    transition: background-color .15s ease-in-out;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+#submit-button:hover {
+    cursor: pointer;
+    background: #b1110e;
+}
+
+#labels-container {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 2px 2px 2px 0px;
+}
+
+#labels-container label {
+    line-height: 2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#labels-container #route-labels div {
+    border-left: 6px solid;
+    padding-left: 5px;
+    margin-top: 3px;
+}
+
+#route-labels div:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px #888888;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-content {
+    background-color: lightgray;
+    color: #555;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+}
+#container6{
+    margin-top:150px;
+    margin-bottom: 150px;
+    display:flex;
+    /* border:2px solid black; */
+}
+#container6 .boxes{
+    text-align: center;
+    /* border:2px solid black; */
+    margin:10px 10px;
+    padding:10px 10px;
+}
+.footerimage{
+    width:95%;
+    height:700px;
+    margin:10px 10px;
+    margin-bottom: 20px;
+}
+.theimage{
+    height:700px;
+    width:100%;
+    margin:10px 10px;
+}
+#container6 .doctorimage{
+    margin:10px 10px;
+    height:300px;
+    width:300px;
+}
