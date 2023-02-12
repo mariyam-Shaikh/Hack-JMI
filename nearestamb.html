@@ -393,7 +393,7 @@
 
             function createPassengerMarker(markerCoordinates, popup) {
                 const passengerMarkerElement = document.createElement('div');
-                passengerMarkerElement.innerHTML = "<img src='img/man-waving-arm_32.png' style='width: 30px; height: 30px';>";
+                passengerMarkerElement.innerHTML = "<img src='images/user.png' style='width: 30px; height: 30px';>";
                 return new tt.Marker({element: passengerMarkerElement}).setLngLat(markerCoordinates).setPopup(popup).addTo(map);
             }
 
