@@ -204,31 +204,27 @@ body {
     border: 1px solid #888;
     width: 20%;
 }
-#container6{
-    margin-top:150px;
-    margin-bottom: 150px;
-    display:flex;
-    /* border:2px solid black; */
+#about-us{
+    padding-top: 60px;
 }
-#container6 .boxes{
-    text-align: center;
-    /* border:2px solid black; */
-    margin:10px 10px;
-    padding:10px 10px;
+.cellphone{
+    height: 50%;
+    padding-left:200px;
+    
 }
-.footerimage{
-    width:95%;
-    height:700px;
-    margin:10px 10px;
-    margin-bottom: 20px;
+.fees{
+    height: 50%;
+    padding-left: 200px;
 }
-.theimage{
-    height:700px;
-    width:100%;
-    margin:10px 10px;
+.snap{
+    height: 50%;
+    padding-left: 200px;
 }
-#container6 .doctorimage{
-    margin:10px 10px;
-    height:300px;
-    width:300px;
+.mid-sec{
+    padding-bottom: 50px;
+}
+.persons{
+    display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
