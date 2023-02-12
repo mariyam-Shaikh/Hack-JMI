@@ -1,0 +1,21 @@
+{
+  "name": "hack-jmi-main",
+  "version": "1.0.0",
+  "description": "Hackathon project for Jamia Millia Islamia",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pilot Hackers",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^4.10.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
