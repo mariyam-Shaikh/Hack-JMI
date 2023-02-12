@@ -1,11 +1,12 @@
-.amb{
+.amb {
     float: left;
     padding: 10px;
     width: 200px;
-    height:200px;
+    height: 200px;
     object-fit: cover;
 }
-.profile{
+
+.profile {
     width: 75%;
     margin: 50px auto 100px auto;
     text-align: left;
@@ -13,110 +14,127 @@
     padding-bottom: 20px;
 }
 
-.navbar{
+.navbar {
     background-color: black;
-    margin:auto;
-    padding:19px 0px 19px 0px;
-    height:auto;
+    margin: auto;
+    padding: 19px 0px 19px 0px;
+    height: auto;
 }
-.navbar-brand{
+
+.navbar-brand {
     padding-left: 20px;
 }
-.navbar ul{
+
+.navbar ul {
     overflow: auto;
 }
-.navbar li{
-    color:rgb(255, 255, 255);
-    float:left;
-    margin:10px 10px;
-    padding:10px 10px;
+
+.navbar li {
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 10px 10px;
+    padding: 10px 10px;
     list-style: none;
 }
-.navbar li a{
+
+.navbar li a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-.navbar li a:hover{
-    color:greenyellow;
+
+.navbar li a:hover {
+    color: greenyellow;
 }
-.bottom-container{
-    color:white;
+
+.bottom-container {
+    color: white;
     background-color: #212529;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     margin-bottom: 0px auto 0px auto;
 }
-.footer-link{
-    padding:4px 8px;
+
+.footer-link {
+    padding: 4px 8px;
 }
-.bg_REMS_HOME{
+
+.bg_REMS_HOME {
     position: relative;
     right: 0;
     bottom: 0;
     height: 100%;
     width: 100%;
-   
+
 }
-.top-container{
+
+.top-container {
     position: relative;
     width: 100%;
     margin: auto;
     text-align: left;
     line-height: 2;
 }
+
 .float-container {
     border: 75px solid #fff;
     padding: 20px;
     width: 85%;
     margin: auto;
-    
+
 }
 
 .float-child-1 {
-    
+
     width: 75%;
     float: left;
     padding: 20px;
     border: 2px solid white;
 }
+
 .float-child-2 {
     width: 25%;
     float: left;
     padding: 20px;
     border: 2px solid white;
 }
-.con-btn{
+
+.con-btn {
     margin-top: 10px;
 }
-.emergency{
+
+.emergency {
     position: absolute;
     left: 1080px;
     top: 813px;
-    padding:7px 25px 7px 27px;
+    padding: 7px 25px 7px 27px;
     z-index: 1;
     letter-spacing: .2rem;
 }
-.chotu{
-    padding:10px;
+.emergency a{
+    color:white;
+    text-decoration: none;
+}
+.chotu {
+    padding: 10px;
 }
 
-.map-container{
+.map-container {
     height: 50%;
     position: relative;
 }
 
 body {
     margin: 0;
-  }
+}
 
-  #map {
+#map {
     height: 100vh;
     width: 100vw;
     position: relative;
-  }
+}
 
-  #submit-button {
+#submit-button {
     background: #df1b12;
     padding: 10px;
     margin-top: 10px;
@@ -127,14 +145,14 @@ body {
     text-transform: uppercase;
     border: none;
     outline: none;
-  }
+}
 
-  #submit-button:hover {
+#submit-button:hover {
     cursor: pointer;
     background: #b1110e;
-  }
+}
 
-  #labels-container {
+#labels-container {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     position: absolute;
     top: 10px;
@@ -144,26 +162,26 @@ body {
     margin: 10px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.45) 2px 2px 2px 0px;
-  }
+}
 
-  #labels-container label {
+#labels-container label {
     line-height: 2;
     font-size: 1.2em;
     font-weight: bold;
-  }
+}
 
-  #labels-container #route-labels div {
+#labels-container #route-labels div {
     border-left: 6px solid;
     padding-left: 5px;
     margin-top: 3px;
-  }
+}
 
-  #route-labels div:hover {
+#route-labels div:hover {
     cursor: pointer;
     box-shadow: 0px 2px #888888;
-  }
+}
 
-  #modal {
+#modal {
     display: none;
     position: fixed;
     z-index: 1100;
@@ -173,9 +191,9 @@ body {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
-  }
+}
 
-  #modal-content {
+#modal-content {
     background-color: lightgray;
     color: #555;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -185,4 +203,4 @@ body {
     padding: 20px;
     border: 1px solid #888;
     width: 20%;
-  }
+}
