@@ -32,8 +32,7 @@
                 <li  class="nav-item"><a class="nav-link"  target="_self" href="index.html"> Home</a></li>
                 <li class="nav-item"><a class="nav-link" target="_self"  href="https://google.com"> About Us</a> </li>
                 <li class="nav-item"><a class="nav-link" target="_self"  href="contacts.html"> Contact Us</a> </li>
-                <li class="nav-item"><a class="nav-link" target="_self" href="loginpage.html"> Log In</a> </li>
-                <li class="nav-item"><a class="nav-link"  href="registration.html"target="_self"> Sign Up</a> </li>
+                <li class="nav-item"><a class="nav-link" target="_self"  href="userpage.html"> Log In</a> </li>
             </ul>
         </div>
     </nav>
@@ -45,6 +44,7 @@
   <div id="map"></div>
   <div id="labels-container">
     <label>Find the Ambulance that will arrive fastest</label>
+    <div id="demo"></div>
     <div id="route-labels"></div>
     <input type="button" id="submit-button" value="Submit">
   </div>
@@ -67,25 +67,43 @@
 </section>
 
 <!--js for map api (tomtom)-->
-  <script>
-    const x = document.getElementById("demo");
+  <script
+    type="module"
+  >
+      
+    const apiKey = 'kOCePmeb03Zlhwq2geuS4oRHVPeXA2rc';
 
-function getLocation() {
-  try {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } catch {
-    x.innerHTML = err;
-  }
+    const x = document.getElementById("demo");
+    let _location = [];
+
+  async function getLocation() {
+    return new Promise((resolve,reject) => {
+      navigator.geolocation.getCurrentPosition((pos) => {
+        showPosition(pos);
+        resolve();
+      }, (err) => {
+        x.innerText = err.message;
+      },)
+    })
 }
 
 function showPosition(position) {
-  x.innerHTML = "" + position.coords.longitude+
+  console.log(position.coords?.longitude, position.coords?.latitude);
+  x.innerHTML =   position.coords.longitude+
   "," + position.coords.latitude ;
+  _location = [position.coords.longitude, position.coords.latitude];
   
 }
-    const apiKey = 'kOCePmeb03Zlhwq2geuS4oRHVPeXA2rc';
+    async function getPassangerCoordinates() {
+      await getLocation();
+      console.log(_location)
+      return _location;
+    }
 
-    const passengerInitCoordinates = [showPosition(position)];
+
+
+    const passengerInitCoordinates = await getPassangerCoordinates();
+    console.log(passengerInitCoordinates);
     let passengerMarker;
 
     let taxiPassengerBatchCoordinates = [];
